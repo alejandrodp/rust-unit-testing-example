@@ -4,7 +4,7 @@ pub fn suma(a: i32, b: i32) -> i32 {
 
 // Esta función falla al propio, con el fin de mostrar lo que pasa
 // cuando una prueba falla. 
-fn suma_incorrectamente(a: i32, b: i32) -> i32 {
+pub fn suma_incorrectamente(a: i32, b: i32) -> i32 {
     a - b
 }
 
